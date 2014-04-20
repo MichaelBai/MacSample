@@ -11,20 +11,17 @@
 #include <vector>
 #include <algorithm>
 #include <cstring>
-#include <cstdio>
 
 using namespace std;
 
 #define MAX_LENGTH 15
-#define MAX_DATA 10000
-
 int lcs[MAX_LENGTH+1][MAX_LENGTH+1];
 
-int LCS(char* a, char* b)
+int LCS(string a, string b)
 {
     memset(lcs, 0, sizeof(lcs));
-    for (int i = 1; i <= strlen(a); i++) {
-        for (int j = 1; j <= strlen(b); j++) {
+    for (int i = 1; i <= a.size(); i++) {
+        for (int j = 1; j <= b.size(); j++) {
             if (a[i-1] == b[j-1]) {
                 lcs[i][j] = lcs[i-1][j-1] + 1;
             } else {
@@ -32,13 +29,18 @@ int LCS(char* a, char* b)
             }
         }
     }
-    return lcs[strlen(a)][strlen(b)];
+    return lcs[a.size()][b.size()];
 }
 
-bool isOnlyOneDiff(char* a, char* b)
+bool isConsist(const vector<string>& dic, string insStr)
+{
+    return (find(dic.begin(), dic.end(), insStr) != dic.end());
+}
+
+bool isOnlyOneDiff(string a, string b)
 {
     int diffNum = 0;
-    for (int i = 0; i < strlen(a); i++) {
+    for (int i = 0; i < a.size(); i++) {
         if (a[i] != b[i]) {
             diffNum++;
         }
@@ -46,42 +48,54 @@ bool isOnlyOneDiff(char* a, char* b)
     return (diffNum == 1);
 }
 
-char dic[10001][16];
+bool isOperable(const vector<string>& dic, string insStr, vector<string>& operable)
+{
+    bool ret = false;
+    for (int i = 0; i < dic.size(); i++) {
+        if (abs((int)(insStr.size() - dic[i].size())) <= 1) {
+            int l = LCS(dic[i], insStr);
+            if (dic[i].size() == l ||
+                ((dic[i].size() == insStr.size()) && isOnlyOneDiff(dic[i], insStr)) ||
+                insStr.size() == l) {
+                ret = true;
+                operable.push_back(dic[i]);
+            }
+        }
+    }
+    return ret;
+}
 
 int main(int argc, const char * argv[])
 {
-    
-    int dicSize = 0;
-    memset(dic, 0, sizeof(dic));
-    while (scanf("%s", dic[dicSize]) && dic[dicSize++][0] != '#');
-    dicSize--;
-    
-    char ins[16];
-    while (scanf("%s", ins) && ins[0] != '#') {
-        bool correct = false;
-        for (int i = 0; i < dicSize; i++) {
-            if (strcmp(dic[i], ins) == 0) {
-                correct = true;
-                break;
-            }
+    vector<string> dic, ins;
+    string dicStr, insStr;
+    while (cin >> dicStr) {
+        if (dicStr != "#") {
+            dic.push_back(dicStr);
+        } else {
+            break;
         }
-        if (correct) {
-            cout << ins << " is correct" << endl;
+    }
+    while (cin >> insStr) {
+        if (insStr != "#") {
+            ins.push_back(insStr);
+        } else {
+            break;
         }
-        else
-        {
-            cout << ins << ":";
-            for (int i = 0; i < dicSize; i++) {
-                if (abs((int)(strlen(ins) - strlen(dic[i]))) <= 1) {
-                    int l = LCS(dic[i], ins);
-                    if (strlen(dic[i]) == l ||
-                        ((strlen(dic[i]) == strlen(ins)) && isOnlyOneDiff(dic[i], ins)) ||
-                        strlen(ins) == l) {
-                        cout << " " << dic[i];
-                    }
-                }
+    }
+    vector<string> operable;
+    for (int i = 0; i < ins.size(); i++) {
+        operable.clear();
+        if (isConsist(dic, ins[i])) {
+            cout << ins[i] << " is correct" << endl;
+        } else if (isOperable(dic, ins[i], operable)) {
+            cout << ins[i] << ":";
+            for (int j = 0; j < operable.size(); j++) {
+                cout << " " << operable[j];
             }
             cout << endl;
+        } else {
+            cout << ins[i] << ":" << endl;
         }
     }
     
