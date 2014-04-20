@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DFDC6C1-B5D0-4661-BBDD-F8FA0C4DC0A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>POJ 1837 Balance</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FF8A2174-1317-42E9-A8DB-A1072CF2B373</key>
+		<string>https://github.com/MichaelBai/MacSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>POJ 1837 Balance/POJ 1837 Balance.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FF8A2174-1317-42E9-A8DB-A1072CF2B373</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MichaelBai/MacSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FF8A2174-1317-42E9-A8DB-A1072CF2B373</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF8A2174-1317-42E9-A8DB-A1072CF2B373</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MacSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
