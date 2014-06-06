@@ -28,6 +28,10 @@
 		4C7240C8192514D400766FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7240AA192514D400766FFA /* UIKit.framework */; };
 		4C7240D0192514D500766FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C7240CE192514D500766FFA /* InfoPlist.strings */; };
 		4C7240D2192514D500766FFA /* BaiJiaXingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7240D1192514D500766FFA /* BaiJiaXingTests.m */; };
+		4CE8418F193E147B002F2CF1 /* BJXPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */; };
+		4CE84192193E15C9002F2CF1 /* BJXPageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE84191193E15C9002F2CF1 /* BJXPageRootViewController.m */; };
+		4CE84198193E21CA002F2CF1 /* BJXCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE84197193E21CA002F2CF1 /* BJXCollectionViewController.m */; };
+		4CE8419B1940AF8F002F2CF1 /* BJXSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8419A1940AF8F002F2CF1 /* BJXSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,14 @@
 		4C7240CD192514D500766FFA /* BaiJiaXingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiJiaXingTests-Info.plist"; sourceTree = "<group>"; };
 		4C7240CF192514D500766FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C7240D1192514D500766FFA /* BaiJiaXingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiJiaXingTests.m; sourceTree = "<group>"; };
+		4CE8418D193E147B002F2CF1 /* BJXPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXPageContentViewController.h; sourceTree = "<group>"; };
+		4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXPageContentViewController.m; sourceTree = "<group>"; };
+		4CE84190193E15C9002F2CF1 /* BJXPageRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXPageRootViewController.h; sourceTree = "<group>"; };
+		4CE84191193E15C9002F2CF1 /* BJXPageRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXPageRootViewController.m; sourceTree = "<group>"; };
+		4CE84196193E21CA002F2CF1 /* BJXCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXCollectionViewController.h; sourceTree = "<group>"; };
+		4CE84197193E21CA002F2CF1 /* BJXCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXCollectionViewController.m; sourceTree = "<group>"; };
+		4CE841991940AF8F002F2CF1 /* BJXSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXSearchViewController.h; sourceTree = "<group>"; };
+		4CE8419A1940AF8F002F2CF1 /* BJXSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXSearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +169,14 @@
 				4C7240B5192514D400766FFA /* BJXAppDelegate.h */,
 				4C7240B6192514D400766FFA /* BJXAppDelegate.m */,
 				4C7240B8192514D400766FFA /* Main.storyboard */,
+				4CE841991940AF8F002F2CF1 /* BJXSearchViewController.h */,
+				4CE8419A1940AF8F002F2CF1 /* BJXSearchViewController.m */,
+				4CE84196193E21CA002F2CF1 /* BJXCollectionViewController.h */,
+				4CE84197193E21CA002F2CF1 /* BJXCollectionViewController.m */,
+				4CE84190193E15C9002F2CF1 /* BJXPageRootViewController.h */,
+				4CE84191193E15C9002F2CF1 /* BJXPageRootViewController.m */,
+				4CE8418D193E147B002F2CF1 /* BJXPageContentViewController.h */,
+				4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */,
 				4C1B3570192A603800924FA1 /* BJXItemViewController.h */,
 				4C1B3571192A603800924FA1 /* BJXItemViewController.m */,
 				4C1B356D192A517500924FA1 /* BJXTableViewController.h */,
@@ -297,11 +317,15 @@
 				4C7240B3192514D400766FFA /* main.m in Sources */,
 				4C1B356F192A517500924FA1 /* BJXTableViewController.m in Sources */,
 				4C7240B7192514D400766FFA /* BJXAppDelegate.m in Sources */,
+				4CE84198193E21CA002F2CF1 /* BJXCollectionViewController.m in Sources */,
 				4C525F201938BDED0058C62E /* FMDatabaseAdditions.m in Sources */,
 				4C525F231938BDED0058C62E /* FMResultSet.m in Sources */,
 				4C1B3572192A603800924FA1 /* BJXItemViewController.m in Sources */,
 				4C525F211938BDED0058C62E /* FMDatabasePool.m in Sources */,
+				4CE8419B1940AF8F002F2CF1 /* BJXSearchViewController.m in Sources */,
+				4CE84192193E15C9002F2CF1 /* BJXPageRootViewController.m in Sources */,
 				4C525F221938BDED0058C62E /* FMDatabaseQueue.m in Sources */,
+				4CE8418F193E147B002F2CF1 /* BJXPageContentViewController.m in Sources */,
 				4C525F1F1938BDED0058C62E /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,8 +23,8 @@
 {
     [super viewDidLoad];
     
-    NSString* docsdir = [NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
-    NSString* dbpath = [docsdir stringByAppendingPathComponent:@"bjx.db"];
+    NSString* docsdir = [NSSearchPathForDirectoriesInDomains( NSLibraryDirectory, NSUserDomainMask, YES) lastObject];
+    NSString* dbpath = [docsdir stringByAppendingPathComponent:@"Database/bjx.db"];
     FMDatabase* db = [FMDatabase databaseWithPath:dbpath];
     [db open];
     FMResultSet *rs = [db executeQuery:@"select * from bjx"];
