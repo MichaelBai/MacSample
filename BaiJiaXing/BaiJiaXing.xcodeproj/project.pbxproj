@@ -28,6 +28,7 @@
 		4C7240C8192514D400766FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7240AA192514D400766FFA /* UIKit.framework */; };
 		4C7240D0192514D500766FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C7240CE192514D500766FFA /* InfoPlist.strings */; };
 		4C7240D2192514D500766FFA /* BaiJiaXingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7240D1192514D500766FFA /* BaiJiaXingTests.m */; };
+		4C90923B1943FBE500BAABC0 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 4C90923A1943FBE500BAABC0 /* image */; };
 		4CE8418F193E147B002F2CF1 /* BJXPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */; };
 		4CE84192193E15C9002F2CF1 /* BJXPageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE84191193E15C9002F2CF1 /* BJXPageRootViewController.m */; };
 		4CE84198193E21CA002F2CF1 /* BJXCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE84197193E21CA002F2CF1 /* BJXCollectionViewController.m */; };
@@ -78,6 +79,7 @@
 		4C7240CD192514D500766FFA /* BaiJiaXingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiJiaXingTests-Info.plist"; sourceTree = "<group>"; };
 		4C7240CF192514D500766FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C7240D1192514D500766FFA /* BaiJiaXingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiJiaXingTests.m; sourceTree = "<group>"; };
+		4C90923A1943FBE500BAABC0 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image; path = BaiJiaXing/image; sourceTree = "<group>"; };
 		4CE8418D193E147B002F2CF1 /* BJXPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXPageContentViewController.h; sourceTree = "<group>"; };
 		4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXPageContentViewController.m; sourceTree = "<group>"; };
 		4CE84190193E15C9002F2CF1 /* BJXPageRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXPageRootViewController.h; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		4C72409A192514D400766FFA = {
 			isa = PBXGroup;
 			children = (
+				4C90923A1943FBE500BAABC0 /* image */,
 				4C525F131938BDE10058C62E /* fmdb */,
 				4C7240AC192514D400766FFA /* BaiJiaXing */,
 				4C7240CB192514D400766FFA /* BaiJiaXingTests */,
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C90923B1943FBE500BAABC0 /* image in Resources */,
 				4C7240BF192514D400766FFA /* Images.xcassets in Resources */,
 				4C7240B1192514D400766FFA /* InfoPlist.strings in Resources */,
 				4C7240BA192514D400766FFA /* Main.storyboard in Resources */,

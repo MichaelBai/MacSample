@@ -87,7 +87,7 @@
         <scene sceneID="DxS-1b-Sje">
             <objects>
                 <navigationController definesPresentationContext="YES" id="2bj-ox-u4c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="原书" id="aiB-Z5-Cb9"/>
+                    <tabBarItem key="tabBarItem" title="原书" image="Book-24.png" id="aiB-Z5-Cb9"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h8T-hK-dvI">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -151,7 +151,7 @@
         <scene sceneID="3lO-6J-sNI">
             <objects>
                 <navigationController definesPresentationContext="YES" id="pnN-bY-psU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="搜索" id="5KN-Q1-sk5"/>
+                    <tabBarItem key="tabBarItem" title="搜索" image="Search-24.png" id="5KN-Q1-sk5"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="zXr-hd-3Pj">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -285,7 +285,7 @@
         <scene sceneID="k44-pF-pzQ">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="mwW-HD-cZH" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="BqS-JT-FqW">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -305,7 +305,7 @@
         <scene sceneID="oeS-HX-g4W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UyW-XW-jC6" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="拼音" id="eFL-6y-2JZ"/>
+                    <tabBarItem key="tabBarItem" title="拼音" image="Alphabetical-Sorting-24.png" id="eFL-6y-2JZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hNO-va-7im">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -325,6 +325,11 @@
             <point key="canvasLocation" x="1281" y="-1222"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Alphabetical-Sorting-24.png" width="24" height="24"/>
+        <image name="Book-24.png" width="24" height="24"/>
+        <image name="Search-24.png" width="24" height="24"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
