@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C048B5319449B890005569E /* bjx.db in Resources */ = {isa = PBXBuildFile; fileRef = 4C048B5219449B890005569E /* bjx.db */; };
+		4C048B55194602760005569E /* Alphabetical-Sorting-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C048B54194602760005569E /* Alphabetical-Sorting-24.png */; };
+		4C048B58194602820005569E /* Book-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C048B56194602820005569E /* Book-24.png */; };
+		4C048B59194602820005569E /* Search-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C048B57194602820005569E /* Search-24.png */; };
 		4C1B356F192A517500924FA1 /* BJXTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B356E192A517500924FA1 /* BJXTableViewController.m */; };
 		4C1B3572192A603800924FA1 /* BJXItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B3571192A603800924FA1 /* BJXItemViewController.m */; };
 		4C525F1F1938BDED0058C62E /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C525F151938BDED0058C62E /* FMDatabase.m */; };
@@ -46,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C048B5219449B890005569E /* bjx.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = bjx.db; path = BaiJiaXing/bjx.db; sourceTree = "<group>"; };
+		4C048B54194602760005569E /* Alphabetical-Sorting-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Alphabetical-Sorting-24.png"; path = "BaiJiaXing/image/Alphabetical-Sorting-24.png"; sourceTree = "<group>"; };
+		4C048B56194602820005569E /* Book-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Book-24.png"; path = "BaiJiaXing/image/Book-24.png"; sourceTree = "<group>"; };
+		4C048B57194602820005569E /* Search-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Search-24.png"; path = "BaiJiaXing/image/Search-24.png"; sourceTree = "<group>"; };
 		4C1B356D192A517500924FA1 /* BJXTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXTableViewController.h; sourceTree = "<group>"; };
 		4C1B356E192A517500924FA1 /* BJXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXTableViewController.m; sourceTree = "<group>"; };
 		4C1B3570192A603800924FA1 /* BJXItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXItemViewController.h; sourceTree = "<group>"; };
@@ -115,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C048B50194499690005569E /* database */ = {
+			isa = PBXGroup;
+			children = (
+				4C048B5219449B890005569E /* bjx.db */,
+			);
+			name = database;
+			sourceTree = "<group>";
+		};
 		4C525F131938BDE10058C62E /* fmdb */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +152,10 @@
 		4C72409A192514D400766FFA = {
 			isa = PBXGroup;
 			children = (
+				4C048B56194602820005569E /* Book-24.png */,
+				4C048B57194602820005569E /* Search-24.png */,
+				4C048B54194602760005569E /* Alphabetical-Sorting-24.png */,
+				4C048B50194499690005569E /* database */,
 				4C90923A1943FBE500BAABC0 /* image */,
 				4C525F131938BDE10058C62E /* fmdb */,
 				4C7240AC192514D400766FFA /* BaiJiaXing */,
@@ -296,7 +316,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C048B5319449B890005569E /* bjx.db in Resources */,
 				4C90923B1943FBE500BAABC0 /* image in Resources */,
+				4C048B55194602760005569E /* Alphabetical-Sorting-24.png in Resources */,
+				4C048B58194602820005569E /* Book-24.png in Resources */,
+				4C048B59194602820005569E /* Search-24.png in Resources */,
 				4C7240BF192514D400766FFA /* Images.xcassets in Resources */,
 				4C7240B1192514D400766FFA /* InfoPlist.strings in Resources */,
 				4C7240BA192514D400766FFA /* Main.storyboard in Resources */,

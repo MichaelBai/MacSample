@@ -12,8 +12,12 @@
 
 - (void)viewDidLoad
 {
-    [self.webView setBackgroundColor:[UIColor clearColor]];
-    [self.webView loadHTMLString:self.webContent baseURL:nil];
+    [super viewDidLoad];
+    [self.webView setBackgroundColor:[UIColor lightGrayColor]];
+    NSMutableString* content = [NSMutableString stringWithString:self.webContent];
+    [content insertString:@"<p style=\"overflow:hidden;\">" atIndex:0];
+    [content appendString:@"</p>"];
+    [self.webView loadHTMLString:content baseURL:nil];
 }
 
 @end
