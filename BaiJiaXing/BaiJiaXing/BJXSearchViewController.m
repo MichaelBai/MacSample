@@ -110,7 +110,7 @@
     NSString* dbpath = [[NSBundle mainBundle] pathForResource:@"bjx" ofType:@"db"];
     FMDatabase* db = [FMDatabase databaseWithPath:dbpath];
     if (![db open]) {
-        NSLog([NSString stringWithFormat:@"Can not open database in %@", dbpath]);
+//        NSLog([NSString stringWithFormat:@"Can not open database in %@", dbpath]);
         return;
     }
     NSString* queryStr = [str stringByAppendingString:@"%"];

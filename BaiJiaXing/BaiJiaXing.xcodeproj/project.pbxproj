@@ -287,6 +287,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = MichaelBai;
 				TargetAttributes = {
+					4C7240A2192514D400766FFA = {
+						DevelopmentTeam = H767TD2PYB;
+					};
 					4C7240C3192514D400766FFA = {
 						TestTargetID = 4C7240A2192514D400766FFA;
 					};
@@ -420,7 +423,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -458,7 +462,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -479,11 +484,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaiJiaXing/BaiJiaXing-Prefix.pch";
 				INFOPLIST_FILE = "BaiJiaXing/BaiJiaXing-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58E4FEDC-E0D5-4779-BB2E-FF5E93D6992C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -493,11 +501,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Chuanguo Ji (H767TD2PYB)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BaiJiaXing/BaiJiaXing-Prefix.pch";
 				INFOPLIST_FILE = "BaiJiaXing/BaiJiaXing-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "58E4FEDC-E0D5-4779-BB2E-FF5E93D6992C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
