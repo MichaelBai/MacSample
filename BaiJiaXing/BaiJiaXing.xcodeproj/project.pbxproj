@@ -32,6 +32,7 @@
 		4C7240C8192514D400766FFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7240AA192514D400766FFA /* UIKit.framework */; };
 		4C7240D0192514D500766FFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C7240CE192514D500766FFA /* InfoPlist.strings */; };
 		4C7240D2192514D500766FFA /* BaiJiaXingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7240D1192514D500766FFA /* BaiJiaXingTests.m */; };
+		4C860D0A1B039B280080FD67 /* settings-24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C860D091B039B280080FD67 /* settings-24.png */; };
 		4C90923B1943FBE500BAABC0 /* image in Resources */ = {isa = PBXBuildFile; fileRef = 4C90923A1943FBE500BAABC0 /* image */; };
 		4CE8418F193E147B002F2CF1 /* BJXPageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */; };
 		4CE84192193E15C9002F2CF1 /* BJXPageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE84191193E15C9002F2CF1 /* BJXPageRootViewController.m */; };
@@ -58,6 +59,7 @@
 		4C1B356E192A517500924FA1 /* BJXTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXTableViewController.m; sourceTree = "<group>"; };
 		4C1B3570192A603800924FA1 /* BJXItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXItemViewController.h; sourceTree = "<group>"; };
 		4C1B3571192A603800924FA1 /* BJXItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXItemViewController.m; sourceTree = "<group>"; };
+		4C50DCF91AC060D200729F16 /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		4C525F001938BBE80058C62E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		4C525F141938BDED0058C62E /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = BaiJiaXing/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		4C525F151938BDED0058C62E /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = BaiJiaXing/fmdb/FMDatabase.m; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 		4C7240CD192514D500766FFA /* BaiJiaXingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiJiaXingTests-Info.plist"; sourceTree = "<group>"; };
 		4C7240CF192514D500766FFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C7240D1192514D500766FFA /* BaiJiaXingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiJiaXingTests.m; sourceTree = "<group>"; };
+		4C860D091B039B280080FD67 /* settings-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-24.png"; sourceTree = "<group>"; };
 		4C90923A1943FBE500BAABC0 /* image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = image; path = BaiJiaXing/image; sourceTree = "<group>"; };
 		4CE8418D193E147B002F2CF1 /* BJXPageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJXPageContentViewController.h; sourceTree = "<group>"; };
 		4CE8418E193E147B002F2CF1 /* BJXPageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJXPageContentViewController.m; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 				4C048B56194602820005569E /* Book-24.png */,
 				4C048B57194602820005569E /* Search-24.png */,
 				4C048B54194602760005569E /* Alphabetical-Sorting-24.png */,
+				4C860D091B039B280080FD67 /* settings-24.png */,
 				4C048B50194499690005569E /* database */,
 				4C90923A1943FBE500BAABC0 /* image */,
 				4C525F131938BDE10058C62E /* fmdb */,
@@ -206,6 +210,7 @@
 				4C1B356E192A517500924FA1 /* BJXTableViewController.m */,
 				4C7240BE192514D400766FFA /* Images.xcassets */,
 				4C7240AD192514D400766FFA /* Supporting Files */,
+				4C50DCF91AC060D200729F16 /* Const.h */,
 			);
 			path = BaiJiaXing;
 			sourceTree = "<group>";
@@ -327,6 +332,7 @@
 				4C7240BF192514D400766FFA /* Images.xcassets in Resources */,
 				4C7240B1192514D400766FFA /* InfoPlist.strings in Resources */,
 				4C7240BA192514D400766FFA /* Main.storyboard in Resources */,
+				4C860D0A1B039B280080FD67 /* settings-24.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
